@@ -1,0 +1,184 @@
+
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.flex {
+    display: flex;
+}
+
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    background-color: #E5AF42;
+    text-align: center;
+    line-height: 3;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover,
+footer a:hover {
+    text-decoration: underline;
+}
+
+.fake-button:hover,
+.blue-hover:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+
+header, footer {
+    background-color: #E5AF42;
+}
+
+header {
+    height: 150px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+}
+
+main {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+footer {
+    height: 60px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.index {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.index img {
+    width: 100%;
+    max-height: 40vh; 
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.index h2,
+.index p {
+    margin-bottom: 8px; 
+}
+
+.index .fake-button {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.index .fake-button + .fake-button {
+    margin-left: 20px;
+}
+
+.booking-page {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.booking-page p {
+    font-size: 18px;
+}
+
+.day-selector {
+    margin-bottom: 12px;
+}
+
+.day-selector li {
+    width: 60px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.small-button {
+    border: 1px solid black;
+    margin-bottom: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.clear-button {
+    width: 200px;
+}
+
+.clicked {
+    background-color: #E5AF42;
+}
+
+
+.contact {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact form label,
+.contact form button {
+    border: none; 
+    outline: none; 
+}
+
+.contact form textarea,
+.contact form input {
+    border: 1px solid black; 
+}
+
+
+
+.blue-hover {
+    cursor: pointer;
+}
